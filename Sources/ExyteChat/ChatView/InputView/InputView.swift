@@ -103,7 +103,10 @@ struct InputView: View {
                 HStack(alignment: .bottom, spacing: 0) {
                   //  leftView
                     middleView
+                    .padding(EdgeInsets(leading: 8, trailing: 8))
                     //rightView
+
+                    
                 }
                 
                 .background {
