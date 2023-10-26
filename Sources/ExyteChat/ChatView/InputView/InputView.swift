@@ -104,6 +104,8 @@ struct InputView: View {
                   //  leftView
                     middleView
                     //rightView
+                }
+                
                 .background {
                     RoundedRectangle(cornerRadius: 18)
                         .fill(fieldBackgroundColor)
