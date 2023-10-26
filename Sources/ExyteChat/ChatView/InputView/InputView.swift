@@ -112,8 +112,6 @@ struct InputView: View {
                 }
 
                 rigthOutsideButton
-
-                .padding()
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
