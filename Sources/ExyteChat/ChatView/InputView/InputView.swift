@@ -110,7 +110,7 @@ struct InputView: View {
                         .fill(fieldBackgroundColor)
                 }
 
-                rigthOutsideButton
+                //rigthOutsideButton
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
