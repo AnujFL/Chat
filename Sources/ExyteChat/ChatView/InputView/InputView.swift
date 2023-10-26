@@ -101,16 +101,16 @@ struct InputView: View {
             viewOnTop
             HStack(alignment: .bottom, spacing: 10) {
                 HStack(alignment: .bottom, spacing: 0) {
-                    leftView
+                  //  leftView
                     middleView
-                    rightView
+                    //rightView
                 }
                 .background {
                     RoundedRectangle(cornerRadius: 18)
                         .fill(fieldBackgroundColor)
                 }
 
-                //rigthOutsideButton
+                rigthOutsideButton
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
