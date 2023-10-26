@@ -105,12 +105,15 @@ struct InputView: View {
                     middleView
                     //rightView
                 }
+                
                 .background {
                     RoundedRectangle(cornerRadius: 18)
                         .fill(fieldBackgroundColor)
                 }
 
                 rigthOutsideButton
+
+                .padding()
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
@@ -188,9 +191,12 @@ struct InputView: View {
             Group {
                 if state.canSend {
                     sendButton
+                        .disabled(false)
                 } else {
-                    recordButton
-                        .highPriorityGesture(dragGesture())
+                    sendButton
+                        .disabled(true)
+                    // recordButton
+                    //     .highPriorityGesture(dragGesture())
                 }
             }
             .compositingGroup()
